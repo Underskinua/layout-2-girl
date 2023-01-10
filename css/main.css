@@ -181,9 +181,12 @@ img {
 
 .banner button {
   padding: 24px 21px 24px 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   font-family: "Roboto", sans-serif;
   line-height: 1.14;
-  background: liner gradient rgb(39, 152, 185), rgb(58, 182, 218);
+  background: Linear Gradient;
 }/*# sourceMappingURL=main.css.map */
