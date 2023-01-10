@@ -1,0 +1,26 @@
+.header {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    position: absolute;  
+    z-index: 1;  
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    margin-left: 920px;  
+    align-items: center;       
+}
+
+   
+.logo p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ffffff; 
+    margin-top: 9px;     
+}
