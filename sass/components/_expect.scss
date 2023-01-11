@@ -1,0 +1,60 @@
+.expect {
+    padding-top: 88px;
+    padding-bottom: 75px;
+    background: #efefef;
+
+    & h2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1;
+        color: #252525;
+        margin-bottom: 18px;
+    }
+
+    & h2::after {
+        content: '';
+        display: flex;        
+        width: 220px;
+        height: 7px;
+        margin-top: 18px;
+        background: #f9bf3b;
+    }
+}
+
+.expect__known {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 0.86;
+    color: #4a4a4a;
+    margin-bottom: 45px;
+    text-align: center;
+} 
+
+.expect__wrapper-img {
+    display: flex;
+    text-align: center;
+
+    & li {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing:border-box;
+        width: 342px;
+        margin-right: 48px;         
+    }
+
+    & img {
+        margin-bottom: 26px;
+    }        
+}
+
+// .expect__wrapper-img:not(last-child) {
+      //  margin-right: 48px;
+// }
+
+
+
