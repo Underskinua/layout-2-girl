@@ -1,0 +1,70 @@
+.youcan {
+    padding-top: 86px;
+    padding-bottom: 69px;
+    background-image: url(/images/second_bg.jpg);
+    background-repeat: no-repeat;
+    height: 447px;
+
+    & h2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #efefef;        
+        text-align: center;
+        margin-bottom: 39px;
+    }
+
+    & h2::after {
+        display: flex;
+        align-items: center;
+        content: '';
+        width: 220px;
+        height: 7px;
+        margin-top: 18px;
+        background: #f9bf3b;
+    }
+}
+
+.youcan-icon__content {
+    display: flex;
+    gap: 80px;
+    
+    & p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 1.17;
+        color: #efefef;
+        margin-top: 25px;        
+    }   
+}
+
+.youcan-icon__wrapper {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.youcan-icon__border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background: #b4e2ff;    
+}
+

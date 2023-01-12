@@ -36,25 +36,27 @@
 } 
 
 .expect__wrapper-img {
-    display: flex;
-    text-align: center;
+    display: flex;    
+    gap: 48px;    
 
-    & li {
-        display: flex;
-        flex-wrap: wrap;
-        box-sizing:border-box;
-        width: 342px;
-        margin-right: 48px;         
+        & li {
+            flex-wrap: wrap;
+            width: 342px;                     
+        }
+
+        & img {
+            margin-bottom: 26px;
+        }        
+
+        & p {
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 1.4;
+            color: #4a4a4a;
     }
-
-    & img {
-        margin-bottom: 26px;
-    }        
 }
-
-// .expect__wrapper-img:not(last-child) {
-      //  margin-right: 48px;
-// }
 
 
 

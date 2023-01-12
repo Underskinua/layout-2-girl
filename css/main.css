@@ -86,9 +86,10 @@ img {
 }
 
 .banner {
-  width: 1920px;
   height: 800px;
   position: relative;
+  margin-left: auto;
+  margin-left: auto;
   background-image: url(/images/main_bg.jpg);
 }
 .banner h1 {
@@ -265,19 +266,150 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  gap: 48px;
 }
 .expect__wrapper-img li {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 342px;
+}
+.expect__wrapper-img img {
+  margin-bottom: 26px;
+}
+.expect__wrapper-img p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #4a4a4a;
+}
+
+.optimization {
+  padding-top: 61px;
+  padding-bottom: 74px;
+  height: 502px;
+  background-image: url(/images/woman_bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.optimization-content {
+  margin-left: 382px;
+}
+.optimization-content h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1;
+  color: #299cbd;
+  text-align: start;
+  margin-bottom: 25px;
+}
+.optimization-content p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.58;
+  margin-bottom: 4px;
+}
+.optimization-content p:nth-child(5) {
+  font-weight: 700;
+}
+
+.youcan {
+  padding-top: 86px;
+  padding-bottom: 69px;
+  background-image: url(/images/second_bg.jpg);
+  background-repeat: no-repeat;
+  height: 447px;
+}
+.youcan h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #efefef;
+  text-align: center;
+  margin-bottom: 39px;
+}
+.youcan h2::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: "";
+  width: 220px;
+  height: 7px;
+  margin-top: 18px;
+  background: #f9bf3b;
+}
+
+.youcan-icon__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+}
+.youcan-icon__content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.17;
+  color: #efefef;
+  margin-top: 25px;
+}
+
+.youcan-icon__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 342px;
-  margin-right: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.expect__wrapper-img img {
-  margin-bottom: 26px;
+
+.youcan-icon__border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  background: #b4e2ff;
 }/*# sourceMappingURL=main.css.map */

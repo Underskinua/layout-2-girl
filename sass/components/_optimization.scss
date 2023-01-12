@@ -1,0 +1,35 @@
+.optimization {
+    padding-top: 61px;
+    padding-bottom: 74px;
+    height: 502px;
+        background-image: url(/images/woman_bg.jpg);
+    background-repeat: no-repeat;    
+}
+
+.optimization-content {           
+        margin-left: 382px;
+
+    & h2 {
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 1;
+            
+            color: #299cbd;
+            text-align: start;
+            margin-bottom: 25px;
+        }
+
+    & p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 1.58;
+        margin-bottom: 4px;        
+    }
+
+    & p:nth-child(5) {
+        font-weight: 700;
+    }    
+}
