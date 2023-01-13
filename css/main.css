@@ -185,6 +185,7 @@ img {
   margin-right: auto;
   margin-bottom: 70px;
   font-family: "Roboto", sans-serif;
+  font-size: 21px;
   line-height: 1.14;
   background: -webkit-gradient(linear, left top, left bottom, from(#2798B9), to(#3ab6da));
   background: linear-gradient(#2798B9 0%, #3ab6da 100%);
@@ -374,8 +375,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  text-align: center;
+  width: 199px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 17px;
@@ -412,4 +413,77 @@ img {
   height: 118px;
   border-radius: 50%;
   background: #b4e2ff;
+}
+
+.bonus {
+  padding-top: 88px;
+  padding-bottom: 88px;
+  background: #efefef;
+}
+.bonus img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+.bonus p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.43;
+  text-align: center;
+  color: #252525;
+  margin-bottom: 51px;
+}
+.bonus button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 15px 24px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2798B9), to(#3ab6da));
+  background: linear-gradient(#2798B9 0%, #3ab6da 100%);
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  line-height: 1.14;
+  color: #ffffff;
+  -webkit-box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+}
+
+.when {
+  padding-top: 81px;
+  padding-bottom: 50px;
+}
+.when img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+}
+.when h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  color: #252525;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.when h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1;
+  color: #299cbd;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.when p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 0.86;
+  color: #4a4a4a;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
