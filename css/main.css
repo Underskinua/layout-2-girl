@@ -30,29 +30,11 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (max-width: 479px) {
-  .container {
-    width: 320px;
-  }
-}
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
+  width: 1200px;
 }
 
 .header {
+  width: 100%;
   padding-top: 38px;
   padding-bottom: 38px;
   position: absolute;
@@ -60,7 +42,6 @@ img {
 }
 
 .logo {
-  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,14 +49,13 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: absolute;
-  z-index: 5;
-  margin-left: 920px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
 .logo p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -89,8 +69,10 @@ img {
   height: 800px;
   position: relative;
   margin-left: auto;
-  margin-left: auto;
+  margin-right: auto;
   background-image: url(/images/main_bg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .banner h1 {
   padding-top: 196px;
@@ -143,7 +125,7 @@ img {
   width: 292px;
   height: 2px;
   background-color: #ffffff;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .banner__simply::after {
   content: "";
@@ -159,6 +141,7 @@ img {
   width: 292px;
   height: 2px;
   background-color: #ffffff;
+  margin-left: 5px;
 }
 
 .banner__content {
@@ -289,6 +272,9 @@ img {
 .optimization {
   padding-top: 61px;
   padding-bottom: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1922px;
   height: 502px;
   background-image: url(/images/woman_bg.jpg);
   background-repeat: no-repeat;
@@ -323,6 +309,8 @@ img {
   padding-bottom: 69px;
   background-image: url(/images/second_bg.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 447px;
 }
 .youcan h2 {
@@ -485,5 +473,19 @@ img {
   font-size: 23px;
   line-height: 0.86;
   color: #4a4a4a;
+  text-align: center;
+}
+
+footer {
+  padding-top: 57px;
+  padding-bottom: 69px;
+  background: #1a1a1a;
+}
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #888888;
   text-align: center;
 }/*# sourceMappingURL=main.css.map */
